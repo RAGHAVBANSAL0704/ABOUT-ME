@@ -2,7 +2,9 @@
 
 Official digital portfolio and professional information page of **Raghav Bansal**.
 
-🔗 **Live Production URL:** [https://about-me-sable-two-19.vercel.app](https://about-me-sable-two-19.vercel.app)
+🔗 **Live Deployments:**
+- ▲ **Vercel:** [https://about-me-sable-two-19.vercel.app](https://about-me-sable-two-19.vercel.app)
+- 🐙 **GitHub Pages:** [https://raghavbansal0704.github.io/ABOUT-ME/](https://raghavbansal0704.github.io/ABOUT-ME/)
 
 ![Raghav Bansal Portfolio](assets/avatar.jpg)
 
