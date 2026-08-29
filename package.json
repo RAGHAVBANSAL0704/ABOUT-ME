@@ -1,0 +1,21 @@
+{
+  "name": "raghav-bansal-portfolio",
+  "version": "1.0.0",
+  "description": "Raghav Bansal — Executive Portfolio & Information Hub",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "agricultural-engineering",
+    "cad",
+    "fusion-360",
+    "prompt-engineering",
+    "ncc",
+    "viksit-bharat"
+  ],
+  "author": "Raghav Bansal <raghavbansal0704@gmail.com>",
+  "license": "MIT"
+}
