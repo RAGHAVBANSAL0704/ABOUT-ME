@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raghav Bansal — Agricultural Engineer, CAD Designer, Prompt Engineer & Developer. B.Tech at CCS HAU Hisar (2028). NCC 'B' Certificate ('A' Grade), 50+ Fusion 360 3D Models, Vercel & GitHub Apps.">
+    <meta name="keywords" content="Raghav Bansal, Astronomy with Antigravity, Main Portal NCC, CCS HAU Hisar, B.Tech Agricultural Engineering, Prompt Engineering, NCC B Certificate A Grade, AutoCAD, Autodesk Fusion 360, CBSE 83% 81%, Farmer Welfare, Viksit Bharat 2047">
+    <meta name="author" content="Raghav Bansal">
+    
+    <!-- Open Graph / Social Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Raghav Bansal | Agricultural Engineer, CAD Designer & Developer">
+    <meta property="og:description" content="Official portfolio featuring B.Tech Agri-Engineering at CCS HAU Hisar, Vercel projects (Astronomy with Antigravity & Main Portal NCC), Prompt Engineering, and 50+ Fusion 360 CAD models.">
+    <meta property="og:image" content="assets/avatar.jpg">
+
+    <title>Raghav Bansal — Executive Portfolio & Achievements</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+
+    <!-- Dynamic Background Canvas & Spotlight -->
+    <canvas id="bg-canvas"></canvas>
+    <div id="cursor-spotlight" class="spotlight"></div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-accent">&lt;</span>Raghav Bansal<span class="logo-accent">/&gt;</span>
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Education & Bio</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#publications" class="nav-link">Writings</a>
+                <a href="#socials" class="nav-link">Socials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Mode Toggle Button -->
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle Theme (Executive Light / Google Dark)">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="btn-whatsapp-quick" id="btn-quick-wa">
+                    <i class="fa-brands fa-whatsapp"></i> Direct Connect
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        <span>B.Tech Agricultural Engineering @ CCS HAU Hisar (2028)</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Innovating Tech, CAD & <br>
+                        <span class="gradient-text">Prompt Engineering</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Hello! I'm <strong class="highlight-name">Raghav Bansal</strong>. Pursuing B.Tech in Agricultural Engineering at <strong>CCS HAU Hisar</strong>. Final Year NCC Cadet with <strong>NCC 'B' Certificate ('A' Grade)</strong>, skilled in <strong>Prompt Engineering for various tasks</strong>, <strong>AutoCAD & Fusion 360 (50+ 3D Models)</strong>, and creator of deployed Vercel & GitHub applications. Dedicated to <strong>Farmer Welfare</strong> & <strong>Viksit Bharat 2047</strong>.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#achievements" class="btn btn-primary">
+                            <span>View Achievements</span>
+                            <i class="fa-solid fa-award"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-glass">
+                            <i class="fa-solid fa-cube"></i>
+                            <span>View Applications (7)</span>
+                        </a>
+                    </div>
+
+                    <!-- Quick Social Link Chips -->
+                    <div class="quick-social-bar">
+                        <span class="quick-label">Profiles:</span>
+                        <a href="https://github.com/raghavbansal0704" target="_blank" rel="noopener" class="social-chip chip-github" title="GitHub">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.instagram.com/raghavbansal0704?igsh=MWN1c2I4N20xMGk2dg==" target="_blank" rel="noopener" class="social-chip chip-insta" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://www.linkedin.com/in/raghav-bansal-04a252328?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="social-chip chip-linkedin" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="mailto:raghavbansal0704@gmail.com" class="social-chip chip-email" title="Email">
+                            <i class="fa-solid fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="avatar-card glass-card">
+                        <div class="avatar-inner">
+                            <img src="assets/avatar.jpg" alt="Raghav Bansal Portrait" class="avatar-img">
+                            <div class="avatar-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="stats-bar glass-panel">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="7">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Deployed Projects (Vercel & GitHub)</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">3D CAD Models (Fusion 360)</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2028">0</span>
+                    <span class="stat-label">CCS HAU Hisar (Graduation)</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2047">0</span>
+                    <span class="stat-label">Viksit Bharat Vision</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">EDUCATION & SKILLS</span>
+                    <h2 class="section-title">Academic & <span class="gradient-text">Engineering Profile</span></h2>
+                    <p class="section-desc">Bridging agricultural engineering, Prompt Engineering, CAD 3D modeling, NCC leadership, and software innovation.</p>
+                    <div class="google-color-bar"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Tab Controls -->
+                    <div class="about-tabs-nav">
+                        <button class="tab-btn active" data-tab="tab-education">
+                            <i class="fa-solid fa-graduation-cap"></i> Education Timeline
+                        </button>
+                        <button class="tab-btn" data-tab="tab-cad">
+                            <i class="fa-solid fa-cube"></i> Skills & Engineering
+                        </button>
+                        <button class="tab-btn" data-tab="tab-ncc">
+                            <i class="fa-solid fa-shield"></i> NCC Leadership
+                        </button>
+                    </div>
+
+                    <!-- Tab Content Panels -->
+                    <div class="about-tabs-content glass-card">
+                        <!-- Education Tab -->
+                        <div class="tab-pane active" id="tab-education">
+                            <h3 class="pane-title">Education Qualifications & Academic Performance</h3>
+                            
+                            <div class="timeline-list">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-info">
+                                        <span class="timeline-year">2024 - 2028 (Pursuing)</span>
+                                        <h4>B.Tech in Agricultural Engineering</h4>
+                                        <p class="timeline-inst">CCS HAU Hisar (Chaudhary Charan Singh Haryana Agricultural University)</p>
+                                        <p class="timeline-desc">Specializing in Farm Power Machinery, Agricultural Automation, Soil Engineering, and Smart Software Integration.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-info">
+                                        <span class="timeline-year">CBSE Board Senior Secondary</span>
+                                        <h4>Class 12th Board Examination — 81%</h4>
+                                        <p class="timeline-inst">CBSE New Delhi</p>
+                                        <p class="timeline-desc">Strong foundation in Physics, Chemistry, Mathematics, and Analytical Science.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-info">
+                                        <span class="timeline-year">CBSE Board Secondary</span>
+                                        <h4>Class 10th Board Examination — 83%</h4>
+                                        <p class="timeline-inst">CBSE New Delhi</p>
+                                        <p class="timeline-desc">High academic performance across core sciences, mathematics, and technological subjects.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CAD & Prompt Engineering Tab -->
+                        <div class="tab-pane" id="tab-cad">
+                            <h3 class="pane-title">Technical Capabilities, CAD & AI Skills</h3>
+                            <p class="pane-text">
+                                Expert in <strong>Prompt Engineering for diverse tasks and AI workflows</strong>, alongside <strong>50+ 3D models in Autodesk Fusion 360</strong>, <strong>AutoCAD drafting</strong>, and web application development.
+                            </p>
+
+                            <div class="skills-grid">
+                                <div class="skill-card">
+                                    <i class="fa-solid fa-wand-magic-sparkles skill-icon style-icon"></i>
+                                    <h4>Prompt Engineering</h4>
+                                    <p>Advanced Prompt Engineering for diverse technical tasks, LLM orchestration, workflow optimization & AI problem solving.</p>
+                                </div>
+                                <div class="skill-card">
+                                    <i class="fa-solid fa-cube skill-icon html-icon"></i>
+                                    <h4>Autodesk Fusion 360</h4>
+                                    <p>50+ 3D Models designed. Intermediate Assembly, Component Modeling & Parametric Equipment Design.</p>
+                                </div>
+                                <div class="skill-card">
+                                    <i class="fa-solid fa-drafting-compass skill-icon node-icon"></i>
+                                    <h4>AutoCAD Drafting</h4>
+                                    <p>Core 2D & 3D Drafting, Machine Component Blueprints, and Farm Equipment Schematics.</p>
+                                </div>
+                                <div class="skill-card">
+                                    <i class="fa-solid fa-laptop-code skill-icon vercel-icon"></i>
+                                    <h4>Web Development</h4>
+                                    <p>HTML5, CSS3, JavaScript (ES6+), Web Application Dashboards & Cloud Deployments (Vercel/GitHub).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- NCC Leadership Tab -->
+                        <div class="tab-pane" id="tab-ncc">
+                            <h3 class="pane-title">National Cadet Corps (NCC) Service & Honor</h3>
+                            <p class="pane-text">
+                                Active Senior Cadet currently serving in <strong>Final Year NCC</strong>. Demonstrated discipline, drill leadership, national service values, and squad coordination.
+                            </p>
+
+                            <div class="ncc-honor-box">
+                                <div class="honor-badge-icon">
+                                    <i class="fa-solid fa-medal"></i>
+                                </div>
+                                <div>
+                                    <span class="honor-tag">CERTIFICATION EXCELLENCE</span>
+                                    <h4>NCC 'B' Certificate — 'A' Grade</h4>
+                                    <p>Achieved top <strong>'A' Grade</strong> in the rigorous National Cadet Corps 'B' Certificate Examination, demonstrating tactical knowledge, physical endurance, and leadership.</p>
+                                </div>
+                            </div>
+
+                            <p class="pane-text" style="margin-top: 16px;">
+                                Inspired by my active NCC cadence, I conceptualized and deployed the official <strong>Main Portal NCC</strong> software application on Vercel to digitize operations and communication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Honors Section -->
+        <section class="achievements-section section-padding" id="achievements">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">HONORS & MILESTONES</span>
+                    <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+                    <p class="section-desc">Distinctions in NCC leadership, CAD engineering design, Prompt Engineering, academic boards, and software development.</p>
+                    <div class="google-color-bar"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <div class="achievements-grid">
+                    <!-- Achievement 1: NCC B Cert -->
+                    <div class="achievement-card glass-card glow-on-hover">
+                        <div class="achieve-icon-box gold-icon">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+                        <div class="achieve-content">
+                            <span class="achieve-tag">NCC HONOR</span>
+                            <h3>NCC 'B' Certificate ('A' Grade)</h3>
+                            <p>Awarded top 'A' Grade in NCC 'B' Certificate Examination. Currently serving in Final Year NCC Senior Cadence.</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2: Prompt Engineering -->
+                    <div class="achievement-card glass-card glow-on-hover">
+                        <div class="achieve-icon-box navy-icon">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div class="achieve-content">
+                            <span class="achieve-tag">AI & TECH SKILL</span>
+                            <h3>Prompt Engineering Expert</h3>
+                            <p>Specialized in Prompt Engineering across diverse domain tasks, complex problem solving, and AI integration.</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 3: 50+ Fusion Models -->
+                    <div class="achievement-card glass-card glow-on-hover">
+                        <div class="achieve-icon-box blue-icon">
+                            <i class="fa-solid fa-cube"></i>
+                        </div>
+                        <div class="achieve-content">
+                            <span class="achieve-tag">ENGINEERING CAD</span>
+                            <h3>50+ Fusion 360 3D Models</h3>
+                            <p>Successfully designed and modeled 50+ basic to intermediate 3D CAD components in Autodesk Fusion 360 & AutoCAD.</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 4: CBSE 83% & 81% -->
+                    <div class="achievement-card glass-card glow-on-hover">
+                        <div class="achieve-icon-box green-icon">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="achieve-content">
+                            <span class="achieve-tag">ACADEMIC BOARDS</span>
+                            <h3>83% (10th) & 81% (12th) CBSE</h3>
+                            <p>High academic distinction under CBSE New Delhi in 10th Board (83%) and 12th Board Science stream (81%).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Published Writings Section -->
+        <section class="publications-section section-padding" id="publications">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">WRITTEN WORKS</span>
+                    <h2 class="section-title">Published <span class="gradient-text">Writings & Research</span></h2>
+                    <p class="section-desc">Thought leadership articles and written work exploring sustainability, science, and innovative engineering.</p>
+                    <div class="google-color-bar"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <div class="publications-grid">
+                    <!-- Publication 1 -->
+                    <div class="pub-card glass-card glow-on-hover">
+                        <div class="pub-icon-box">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <div class="pub-content">
+                            <span class="pub-tag">Sustainability</span>
+                            <h3 class="pub-title">Sustainable Innovations in Agricultural Engineering</h3>
+                            <p class="pub-desc">An exploration of eco-friendly machinery, water conservation tech, and sustainable farming practices driving environmental balance.</p>
+                        </div>
+                    </div>
+
+                    <!-- Publication 2 -->
+                    <div class="pub-card glass-card glow-on-hover">
+                        <div class="pub-icon-box">
+                            <i class="fa-solid fa-microscope"></i>
+                        </div>
+                        <div class="pub-content">
+                            <span class="pub-tag">Science & Tech</span>
+                            <h3 class="pub-title">Smart Machinery & Software for Farmer Empowerment</h3>
+                            <p class="pub-desc">Analyzing how modern digital tools, software dashboards, and automated hardware elevate agricultural efficiency and farmer welfare.</p>
+                        </div>
+                    </div>
+
+                    <!-- Publication 3 -->
+                    <div class="pub-card glass-card glow-on-hover">
+                        <div class="pub-icon-box">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div class="pub-content">
+                            <span class="pub-tag">Innovative Thinking</span>
+                            <h3 class="pub-title">Roadmap to Viksit Bharat 2047: Technology & Agri-Growth</h3>
+                            <p class="pub-desc">Strategic perspectives on how indigenous technological breakthroughs and youth innovation will fuel India's milestone target for 2047.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section class="projects-section section-padding" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">PUBLICATIONS & APPLICATIONS</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Applications</span></h2>
+                    <p class="section-desc">Explore web applications, digital portals, and open-source simulators deployed on Vercel & GitHub.</p>
+                    <div class="google-color-bar"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <!-- Project Category Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Applications (7)</button>
+                    <button class="filter-btn" data-filter="web">Web Portals</button>
+                    <button class="filter-btn" data-filter="simulations">Simulators</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: Astronomy with Antigravity (Vercel Project 02) -->
+                    <div class="project-card glass-card glow-on-hover" data-category="web">
+                        <div class="project-banner banner-gradient-2">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> Live on Vercel
+                                </span>
+                                <span class="github-badge"><i class="fa-solid fa-user-astronaut"></i> Astronomy App</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-meteor"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Astronomy with Antigravity</h3>
+                            <p class="project-desc">Web application platform dedicated to astronomy, celestial visualization, physics, and Antigravity space exploration.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vercel</span>
+                                <span class="tag">Astronomy</span>
+                                <span class="tag">Antigravity UI</span>
+                                <span class="tag">Interactive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://astronomy-with-antigravity.vercel.app" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Application
+                                </a>
+                                <button class="btn-project btn-repo" data-copy="https://astronomy-with-antigravity.vercel.app">
+                                    <i class="fa-regular fa-copy"></i> Copy Link
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Main Portal NCC (Vercel Project 01) -->
+                    <div class="project-card glass-card glow-on-hover" data-category="web">
+                        <div class="project-banner banner-gradient-1">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> Live on Vercel
+                                </span>
+                                <span class="github-badge"><i class="fa-solid fa-shield-halved"></i> Main Portal</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Main Portal NCC</h3>
+                            <p class="project-desc">Digital portal built for NCC operations with responsive layout, clean aesthetic, and cloud deployment on Vercel.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vercel</span>
+                                <span class="tag">NCC Portal</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://main-portal-ncc-01.vercel.app" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Application
+                                </a>
+                                <button class="btn-project btn-repo" data-copy="https://main-portal-ncc-01.vercel.app">
+                                    <i class="fa-regular fa-copy"></i> Copy Link
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Rathee Agro Egg Works -->
+                    <div class="project-card glass-card glow-on-hover" data-category="web">
+                        <div class="project-banner banner-gradient-3">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> GitHub Pages
+                                </span>
+                                <span class="github-badge"><i class="fa-brands fa-github"></i> Repository</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Rathee Agro Egg Works</h3>
+                            <p class="project-desc">Web application and management platform designed for agricultural and commercial poultry operations.</p>
+                            <div class="project-tags">
+                                <span class="tag">GitHub Pages</span>
+                                <span class="tag">Agro Tech</span>
+                                <span class="tag">HTML5/CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://raghavbansal0704.github.io/rathee-agro-egg-works-/" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Application
+                                </a>
+                                <a href="https://github.com/raghavbansal0704/rathee-agro-egg-works-" target="_blank" rel="noopener" class="btn-project btn-repo">
+                                    <i class="fa-brands fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Bhumi Platform -->
+                    <div class="project-card glass-card glow-on-hover" data-category="web">
+                        <div class="project-banner banner-gradient-1">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> GitHub Pages
+                                </span>
+                                <span class="github-badge"><i class="fa-brands fa-github"></i> Repository</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-globe"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">BHUMI Web Platform</h3>
+                            <p class="project-desc">Web application platform built for digital services, environmental awareness, and clean user interface navigation.</p>
+                            <div class="project-tags">
+                                <span class="tag">GitHub Pages</span>
+                                <span class="tag">Web App</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://raghavbansal0704.github.io/BHUMI/" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Application
+                                </a>
+                                <a href="https://github.com/raghavbansal0704/BHUMI" target="_blank" rel="noopener" class="btn-project btn-repo">
+                                    <i class="fa-brands fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Date 1502 -->
+                    <div class="project-card glass-card glow-on-hover" data-category="web">
+                        <div class="project-banner banner-gradient-2">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> GitHub Pages
+                                </span>
+                                <span class="github-badge"><i class="fa-brands fa-github"></i> Repository</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-calendar-heart"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">DATE 1502 Web App</h3>
+                            <p class="project-desc">Interactive visual web project featuring dynamic animations, structured layout, and smooth transition effects.</p>
+                            <div class="project-tags">
+                                <span class="tag">GitHub Pages</span>
+                                <span class="tag">Interactive</span>
+                                <span class="tag">CSS Keyframes</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://raghavbansal0704.github.io/DATE1502/" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Application
+                                </a>
+                                <a href="https://github.com/raghavbansal0704/DATE1502" target="_blank" rel="noopener" class="btn-project btn-repo">
+                                    <i class="fa-brands fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Coin Toss Simulator 01 -->
+                    <div class="project-card glass-card glow-on-hover" data-category="simulations">
+                        <div class="project-banner banner-gradient-3">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> GitHub Pages
+                                </span>
+                                <span class="github-badge"><i class="fa-solid fa-coins"></i> Simulator v1</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-coins"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Coin Toss Simulator 01</h3>
+                            <p class="project-desc">Probability simulation engine calculating mathematical coin flips with instant visual feedback.</p>
+                            <div class="project-tags">
+                                <span class="tag">GitHub Pages</span>
+                                <span class="tag">Simulation</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Math API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://raghavbansal0704.github.io/coin-toss-simulation-01/" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Simulator
+                                </a>
+                                <a href="https://github.com/raghavbansal0704/coin-toss-simulation-01" target="_blank" rel="noopener" class="btn-project btn-repo">
+                                    <i class="fa-brands fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: Coin Toss Simulator 02 -->
+                    <div class="project-card glass-card glow-on-hover" data-category="simulations">
+                        <div class="project-banner banner-gradient-1">
+                            <div class="banner-overlay">
+                                <span class="vercel-badge">
+                                    <span class="live-dot"></span> GitHub Pages
+                                </span>
+                                <span class="github-badge"><i class="fa-solid fa-chart-line"></i> Simulator v2</span>
+                            </div>
+                            <div class="project-preview-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Coin Toss Simulator 02</h3>
+                            <p class="project-desc">Advanced iteration of the simulation engine with trial tracking, statistical data output, and graphical UI.</p>
+                            <div class="project-tags">
+                                <span class="tag">GitHub Pages</span>
+                                <span class="tag">Advanced Simulation</span>
+                                <span class="tag">Stats & Graphs</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://raghavbansal0704.github.io/coin-toss-simulation-02/" target="_blank" rel="noopener" class="btn-project btn-live">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Simulator
+                                </a>
+                                <a href="https://github.com/raghavbansal0704/coin-toss-simulation-02" target="_blank" rel="noopener" class="btn-project btn-repo">
+                                    <i class="fa-brands fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Connect Hub Section -->
+        <section class="socials-section section-padding" id="socials">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">PROFILES & CHANNELS</span>
+                    <h2 class="section-title">Official <span class="gradient-text">Social Profiles</span></h2>
+                    <p class="section-desc">Connect across platforms or view technical updates and open-source commits.</p>
+                    <div class="google-color-bar"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <div class="social-cards-grid">
+                    <!-- Instagram Card -->
+                    <div class="social-card insta-card glass-card glow-on-hover">
+                        <div class="card-top">
+                            <div class="social-icon-box insta-bg">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <span class="platform-badge">Instagram</span>
+                        </div>
+                        <h3 class="social-handle">@raghavbansal0704</h3>
+                        <p class="social-bio">Follow for project updates, agricultural engineering insights, and visual tech content.</p>
+                        <div class="card-footer">
+                            <button class="btn-copy-handle" data-copy="@raghavbansal0704">
+                                <i class="fa-regular fa-copy"></i> Copy Handle
+                            </button>
+                            <a href="https://www.instagram.com/raghavbansal0704?igsh=MWN1c2I4N20xMGk2dg==" target="_blank" rel="noopener" class="btn-social-link insta-btn">
+                                Visit Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Card -->
+                    <div class="social-card linkedin-card glass-card glow-on-hover">
+                        <div class="card-top">
+                            <div class="social-icon-box linkedin-bg">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <span class="platform-badge">LinkedIn</span>
+                        </div>
+                        <h3 class="social-handle">Raghav Bansal</h3>
+                        <p class="social-bio">Official professional network profile for technical connection and software discussions.</p>
+                        <div class="card-footer">
+                            <button class="btn-copy-handle" data-copy="https://www.linkedin.com/in/raghav-bansal-04a252328">
+                                <i class="fa-regular fa-copy"></i> Copy Profile Link
+                            </button>
+                            <a href="https://www.linkedin.com/in/raghav-bansal-04a252328?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="btn-social-link linkedin-btn">
+                                Connect on LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Card -->
+                    <div class="social-card github-card glass-card glow-on-hover">
+                        <div class="card-top">
+                            <div class="social-icon-box github-bg">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <span class="platform-badge">GitHub Profile</span>
+                        </div>
+                        <h3 class="social-handle">github.com/raghavbansal0704</h3>
+                        <p class="social-bio">Explore repositories, open-source simulation tools, and GitHub Pages deployments.</p>
+                        <div class="card-footer">
+                            <button class="btn-copy-handle" data-copy="https://github.com/raghavbansal0704">
+                                <i class="fa-regular fa-copy"></i> Copy Profile Link
+                            </button>
+                            <a href="https://github.com/raghavbansal0704" target="_blank" rel="noopener" class="btn-social-link github-btn">
+                                Visit GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Direct Email Card -->
+                    <div class="social-card email-card glass-card glow-on-hover">
+                        <div class="card-top">
+                            <div class="social-icon-box email-bg">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <span class="platform-badge">Direct Email</span>
+                        </div>
+                        <h3 class="social-handle">raghavbansal0704@gmail.com</h3>
+                        <p class="social-bio">Official contact address for technical inquiries, platform discussions, and research communication.</p>
+                        <div class="card-footer">
+                            <button class="btn-copy-handle" data-copy="raghavbansal0704@gmail.com">
+                                <i class="fa-regular fa-copy"></i> Copy Email
+                            </button>
+                            <a href="mailto:raghavbansal0704@gmail.com" class="btn-social-link email-btn">
+                                Send Mail <i class="fa-solid fa-paper-plane"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Form Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">COMMUNICATION</span>
+                    <h2 class="section-title">Professional <span class="gradient-text">Contact Hub</span></h2>
+                    <p class="section-desc">Reach out via email, social channels, or send a direct message through the form below.</p>
+                    <div class="google-color-bar"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Left Info Box -->
+                    <div class="contact-info-panel glass-card">
+                        <h3 class="panel-heading">Contact Information</h3>
+                        <p class="panel-subtext">Official details for direct communication, research inquiries, and technical collaboration.</p>
+
+                        <div class="contact-details-list">
+                            <div class="detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-title">Email</span>
+                                    <a href="mailto:raghavbansal0704@gmail.com" class="detail-val">raghavbansal0704@gmail.com</a>
+                                </div>
+                                <button class="btn-mini-copy" data-copy="raghavbansal0704@gmail.com" title="Copy Email">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon insta-detail-icon"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-title">Instagram DM</span>
+                                    <a href="https://www.instagram.com/raghavbansal0704?igsh=MWN1c2I4N20xMGk2dg==" target="_blank" rel="noopener" class="detail-val">@raghavbansal0704</a>
+                                </div>
+                                <button class="btn-mini-copy" data-copy="@raghavbansal0704" title="Copy Instagram Handle">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon linkedin-detail-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-title">LinkedIn Profile</span>
+                                    <a href="https://www.linkedin.com/in/raghav-bansal-04a252328?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="detail-val">Raghav Bansal</a>
+                                </div>
+                                <button class="btn-mini-copy" data-copy="https://www.linkedin.com/in/raghav-bansal-04a252328" title="Copy LinkedIn Link">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon github-detail-icon"><i class="fa-brands fa-github"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-title">GitHub Profile</span>
+                                    <a href="https://github.com/raghavbansal0704" target="_blank" rel="noopener" class="detail-val">github.com/raghavbansal0704</a>
+                                </div>
+                                <button class="btn-mini-copy" data-copy="https://github.com/raghavbansal0704" title="Copy GitHub Link">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Availability card -->
+                        <div class="availability-card">
+                            <i class="fa-solid fa-clock"></i>
+                            <div>
+                                <strong>Institution:</strong> CCS HAU Hisar (Class of 2028)
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Glass Form -->
+                    <div class="contact-form-panel glass-card">
+                        <form id="contact-form" class="contact-form">
+                            <h3 class="form-title">Send a Message</h3>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name">Your Name *</label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-solid fa-user input-icon"></i>
+                                        <input type="text" id="form-name" placeholder="John Doe" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-email">Your Email *</label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-solid fa-envelope input-icon"></i>
+                                        <input type="email" id="form-email" placeholder="john@example.com" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-phone">Contact Number</label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-solid fa-phone input-icon"></i>
+                                        <input type="tel" id="form-phone" placeholder="+1 (555) 000-0000">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-subject">Subject</label>
+                                    <div class="input-wrapper">
+                                        <i class="fa-solid fa-tag input-icon"></i>
+                                        <input type="text" id="form-subject" placeholder="Research Inquiry / General Connection">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message *</label>
+                                <div class="input-wrapper textarea-wrapper">
+                                    <i class="fa-solid fa-comment-dots input-icon"></i>
+                                    <textarea id="form-message" rows="4" placeholder="Enter your message or inquiry here..." required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full" id="btn-submit">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- WhatsApp Direct Connect Modal -->
+    <div class="modal-overlay" id="wa-modal">
+        <div class="modal-card glass-card">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <i class="fa-brands fa-whatsapp wa-modal-icon"></i>
+                    <div>
+                        <h3>WhatsApp Direct Connect</h3>
+                        <p>Pre-fill a custom message to launch directly into WhatsApp chat with Raghav Bansal</p>
+                    </div>
+                </div>
+                <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <label class="modal-label">Choose a starter message or type your own:</label>
+                <div class="preset-messages">
+                    <button class="preset-btn active" data-msg="Hi Raghav! I explored your portfolio, Astronomy with Antigravity app, Prompt Engineering, and Fusion 360 models. Let's connect!">
+                        💼 Vercel Projects & Agri-Tech Connect
+                    </button>
+                    <button class="preset-btn" data-msg="Hey Raghav! I checked out your NCC B Cert 'A' Grade achievement and software projects. Great work!">
+                        ✨ Achievements Feedback
+                    </button>
+                    <button class="preset-btn" data-msg="Hi Raghav! I'd like to discuss your vision for Viksit Bharat 2047 and farmer welfare tech.">
+                        ⚡ Viksit Bharat 2047 Discussion
+                    </button>
+                </div>
+
+                <div class="form-group">
+                    <label for="wa-custom-msg">Your Message Text:</label>
+                    <textarea id="wa-custom-msg" rows="4">Hi Raghav! I explored your portfolio, Astronomy with Antigravity app, Prompt Engineering, and Fusion 360 models. Let's connect!</textarea>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn-glass" id="modal-cancel">Cancel</button>
+                <button class="btn btn-whatsapp" id="btn-launch-wa">
+                    <i class="fa-brands fa-whatsapp"></i> Launch WhatsApp Chat
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-accent">&lt;</span>Raghav Bansal<span class="logo-accent">/&gt;</span>
+                </a>
+                <p class="footer-copy">&copy; 2026 Raghav Bansal. B.Tech Agricultural Engineering @ CCS HAU Hisar.</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://github.com/raghavbansal0704" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/raghavbansal0704?igsh=MWN1c2I4N20xMGk2dg==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/raghav-bansal-04a252328?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:raghavbansal0704@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <button class="btn-top" id="btn-back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+</html>
