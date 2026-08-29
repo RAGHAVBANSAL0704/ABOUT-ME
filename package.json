@@ -2,6 +2,7 @@
   "name": "raghav-bansal-portfolio",
   "version": "1.0.0",
   "description": "Raghav Bansal — Executive Portfolio & Information Hub",
+  "homepage": "https://about-me-sable-two-19.vercel.app",
   "main": "index.html",
   "scripts": {
     "dev": "npx serve .",
