@@ -25,6 +25,14 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Instant Theme Loader (Zero FOUT / Lag) -->
+    <script>
+        (function() {
+            var theme = localStorage.getItem('raghav_theme') || 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
 </head>
 <body data-theme="light">
 

@@ -257,10 +257,21 @@ document.addEventListener("DOMContentLoaded", () => {
     function applyTheme(theme, showFeedback = false) {
         currentTheme = theme;
         isDarkTheme = (theme === "dark");
+
+        // Temporarily disable transitions during theme change for instant 0ms swap
+        document.documentElement.classList.add("no-transitions");
         document.documentElement.setAttribute("data-theme", theme);
         document.body.setAttribute("data-theme", theme);
         localStorage.setItem("raghav_theme", theme);
         updateThemeIcon(theme);
+
+        // Re-enable transitions on the next frame
+        window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => {
+                document.documentElement.classList.remove("no-transitions");
+            });
+        });
+
         if (showFeedback) {
             showToast("Theme: " + (theme === "dark" ? "Google Dark" : "Executive Light"));
         }
@@ -275,7 +286,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isThemeSwitching = true;
             const newTheme = currentTheme === "light" ? "dark" : "light";
             applyTheme(newTheme, true);
-            setTimeout(() => { isThemeSwitching = false; }, 200);
+            setTimeout(() => { isThemeSwitching = false; }, 150);
         });
     }
 
