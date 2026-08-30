@@ -484,6 +484,35 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-2px);
 }
 
+.nav-github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 14px;
+    border-radius: var(--radius-full);
+    background: var(--bg-surface-secondary);
+    border: 1px solid var(--border-subtle);
+    color: var(--navy-primary);
+    font-weight: 600;
+    font-size: 0.84rem;
+    transition: all var(--transition-fast);
+    text-decoration: none;
+}
+
+.nav-github-btn:hover {
+    background: var(--navy-primary);
+    color: #ffffff;
+    border-color: var(--navy-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+}
+
+[data-theme="dark"] .nav-github-btn:hover {
+    background: var(--gold-primary);
+    color: #0e0f12;
+    border-color: var(--gold-primary);
+}
+
 .mobile-toggle {
     display: none;
     font-size: 1.3rem;
@@ -1085,6 +1114,78 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--navy-primary);
     border-color: var(--navy-primary);
     color: #ffffff;
+}
+
+[data-theme="dark"] .filter-btn.active {
+    background: var(--gold-primary);
+    border-color: var(--gold-primary);
+    color: #0e0f12;
+}
+
+/* GitHub Profile Showcase Banner */
+.github-profile-banner {
+    margin-bottom: 36px;
+    padding: 22px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, rgba(15, 43, 92, 0.05) 0%, rgba(197, 155, 39, 0.07) 100%);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+}
+
+.gh-banner-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.gh-banner-avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--navy-primary);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+}
+
+[data-theme="dark"] .gh-banner-avatar {
+    background: var(--gold-primary);
+    color: #0e0f12;
+}
+
+.gh-banner-title {
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: var(--navy-primary);
+    margin-bottom: 3px;
+}
+
+.gh-banner-desc {
+    font-size: 0.86rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.gh-banner-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.gh-profile-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .projects-grid {

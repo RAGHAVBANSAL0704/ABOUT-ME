@@ -20,14 +20,22 @@ Official digital portfolio and professional information page of **Raghav Bansal*
 
 ---
 
-## 🚀 Featured Applications & Deployments
+## 🚀 Featured Vercel Applications & Deployments (12 Live Apps)
 
-- 🪐 **[Astronomy with Antigravity](https://astronomy-with-antigravity.vercel.app)** — Celestial visualization and physics exploration platform (Live on Vercel).
-- 🛡️ **[Main Portal NCC](https://main-portal-ncc-01.vercel.app)** — Digital operations & management portal for NCC (Live on Vercel).
-- 🌾 **[Rathee Agro Egg Works](https://raghavbansal0704.github.io/rathee-agro-egg-works-/)** — Agro-tech management web application (GitHub Pages).
-- 🌐 **[BHUMI Web Platform](https://raghavbansal0704.github.io/BHUMI/)** — Digital services and environmental awareness platform (GitHub Pages).
-- 📅 **[DATE 1502](https://raghavbansal0704.github.io/DATE1502/)** — Interactive web application with dynamic animations (GitHub Pages).
-- 🪙 **[Coin Toss Simulator 01](https://raghavbansal0704.github.io/coin-toss-simulation-01/)** & **[Coin Toss Simulator 02](https://raghavbansal0704.github.io/coin-toss-simulation-02/)** — Mathematical probability simulation engines (GitHub Pages).
+- 💼 **[About Me — Executive Portfolio](https://about-me-sable-two-19.vercel.app/)** — Official executive portfolio & digital hub ([Repo](https://github.com/raghavbansal0704/ABOUT-ME)).
+- 🛡️ **[Main NCC Portal](https://main-portal-ncc-01.vercel.app/)** — Digital operations & management portal for NCC.
+- 🔬 **[Labs and Atlas Suite](https://labs-and-atlas-suite.vercel.app/)** — Interactive research labs & scientific atlas ([Repo](https://github.com/raghavbansal0704/LABS-AND-ATLAS-SUITE)).
+- 🪐 **[Main Sci Space Portal](https://main-sci-space-portal.vercel.app/)** — Astronomy and cosmic exploration platform ([Repo](https://github.com/raghavbansal0704/MAIN-SCI-SPACE-PORTAL)).
+- 🧬 **[Evolution & Genetics Explorer](https://evolution-genetics-explorer.vercel.app/)** — Computational biology & trait evolution explorer ([Repo](https://github.com/raghavbansal0704/EVOLUTION-GENETICS-EXPLORER)).
+- 🎓 **[GATE AG Prep Web Portal](https://gate-ag-prep-web.vercel.app/)** — Preparation platform for GATE Agricultural Engineering.
+- 💻 **[HackHub by Raghav](https://hackhub-by-raghav.vercel.app/)** — Central developer tools & utilities hub ([Repo](https://github.com/raghavbansal0704/HACKHUB-BY-RAGHAV)).
+- 🕵️ **[Security Prank 01 AI](https://security-prank-01-ai.vercel.app/)** — Cybersecurity & AI terminal interface simulator ([Repo](https://github.com/raghavbansal0704/SECURITY-PRANK-01-AI-)).
+- 🌿 **[Earth and Ember Official](https://earth-and-amber-official.vercel.app/)** — Environmental tech & sustainability web experience ([Repo](https://github.com/raghavbansal0704/EARTH-AND-AMBER-OFFICIAL)).
+- 📖 **[Author Web — Dr. RRA](https://author-website-drab-three.vercel.app/)** — Academic publications and literary archive portal ([Repo](https://github.com/raghavbansal0704/MAIN-AUTHOR-WEB-DR-RRA-)).
+- 📈 **[Coin Toss Simulation v2](https://coin-toss-simulation-v2.vercel.app/)** — Advanced Monte Carlo probability simulator with graphs ([Repo](https://github.com/raghavbansal0704/COIN-TOSS-SIMULATION-V2)).
+- 🪙 **[Coin Toss Simulation v1](https://coin-toss-simulation-v1.vercel.app/)** — Lightweight mathematical probability simulation engine ([Repo](https://github.com/raghavbansal0704/COIN-TOSS-SIMULATION-V1)).
+
+> 🐙 **Explore All Repositories on GitHub:** [https://github.com/raghavbansal0704](https://github.com/raghavbansal0704)
 
 ---
 
