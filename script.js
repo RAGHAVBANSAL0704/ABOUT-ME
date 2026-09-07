@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             statusBadge: "B.Tech Agricultural Engineering @ CCS HAU Hisar (2028)",
             headline: "Innovating Tech, CAD & <br><span class=\"gradient-text\">Prompt Engineering</span>",
             bio: "Hello! I am Raghav Bansal. Pursuing B.Tech in Agricultural Engineering at CCS HAU Hisar. Final Year NCC Cadet with NCC 'B' Certificate ('A' Grade), skilled in Prompt Engineering for diverse problem-solving, AutoCAD & Fusion 360 (50+ 3D Models), and creator of deployed Vercel applications. Dedicated to Farmer Welfare & Viksit Bharat 2047.",
-            statProjects: 14,
+            statProjects: 13,
             statCad: 50,
             statGrad: 2028,
             statVision: 2047
@@ -90,18 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 icon: "fa-solid fa-shield-halved",
                 banner: "banner-gradient-2",
                 tags: "Vercel, NCC Portal, Cadet Ops, Responsive"
-            },
-            {
-                id: "proj-3",
-                title: "Labs and Atlas Suite",
-                desc: "Interactive computational science suite featuring multi-dimensional atlas visualizations, experimental datasets, and laboratory analytics.",
-                category: "ai-science",
-                badgeText: "Science Suite",
-                vercelUrl: "https://labs-and-atlas-suite.vercel.app/",
-                githubUrl: "https://github.com/raghavbansal0704/LABS-AND-ATLAS-SUITE",
-                icon: "fa-solid fa-flask-vial",
-                banner: "banner-gradient-3",
-                tags: "Vercel, Atlas Suite, Scientific UI, Data Viz"
             },
             {
                 id: "proj-4",
@@ -248,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const saved = localStorage.getItem(STORAGE_KEY);
             if (saved) {
                 const parsed = JSON.parse(saved);
-                const loadedProjects = parsed.projects || DEFAULT_PORTFOLIO_DATA.projects;
+                let loadedProjects = (parsed.projects || DEFAULT_PORTFOLIO_DATA.projects).filter(p => !p.vercelUrl.includes("labs-and-atlas-suite"));
                 
                 // Auto-merge new default projects if not present
                 DEFAULT_PORTFOLIO_DATA.projects.forEach(dp => {
@@ -260,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 return Object.assign({}, DEFAULT_PORTFOLIO_DATA, parsed, {
                     profile: Object.assign({}, DEFAULT_PORTFOLIO_DATA.profile, parsed.profile || {}, {
-                        statProjects: Math.max(14, (parsed.profile && parsed.profile.statProjects) || 14)
+                        statProjects: 13
                     }),
                     socials: Object.assign({}, DEFAULT_PORTFOLIO_DATA.socials, parsed.socials || {}),
                     achievements: parsed.achievements || DEFAULT_PORTFOLIO_DATA.achievements,
