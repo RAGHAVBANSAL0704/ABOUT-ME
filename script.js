@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             statusBadge: "B.Tech Agricultural Engineering @ CCS HAU Hisar (2028)",
             headline: "Innovating Tech, CAD & <br><span class=\"gradient-text\">Prompt Engineering</span>",
             bio: "Hello! I am Raghav Bansal. Pursuing B.Tech in Agricultural Engineering at CCS HAU Hisar. Final Year NCC Cadet with NCC 'B' Certificate ('A' Grade), skilled in Prompt Engineering for diverse problem-solving, AutoCAD & Fusion 360 (50+ 3D Models), and creator of deployed Vercel applications. Dedicated to Farmer Welfare & Viksit Bharat 2047.",
-            statProjects: 12,
+            statProjects: 14,
             statCad: 50,
             statGrad: 2028,
             statVision: 2047
@@ -210,6 +210,30 @@ document.addEventListener("DOMContentLoaded", () => {
                 icon: "fa-solid fa-coins",
                 banner: "banner-gradient-3",
                 tags: "Vercel, Math Simulation, JavaScript, Fast UI"
+            },
+            {
+                id: "proj-13",
+                title: "Boundless GATE Prep",
+                desc: "Full-length 30-discipline GATE examination preparation platform with authentic 180-minute TCS iON CBT simulator, official IIT question vaults, and KaTeX derivations.",
+                category: "simulations",
+                badgeText: "30-Stream CBT",
+                vercelUrl: "https://boundless-gate-prep.vercel.app/",
+                githubUrl: "https://github.com/raghavbansal0704/BOUNDLESS-GATE-PREP",
+                icon: "fa-solid fa-graduation-cap",
+                banner: "banner-gradient-1",
+                tags: "Vercel, GATE CBT, 30 Streams, TCS iON, EdTech"
+            },
+            {
+                id: "proj-14",
+                title: "COAE&T Student's Corner",
+                desc: "Official student academic portal and curriculum repository for College of Agricultural Engineering & Technology (COAE&T) at CCS HAU Hisar with semester archives and department hubs.",
+                category: "web",
+                badgeText: "CCS HAU Portal",
+                vercelUrl: "https://coaet-students-corner.vercel.app/",
+                githubUrl: "https://github.com/raghavbansal0704",
+                icon: "fa-solid fa-building-columns",
+                banner: "banner-gradient-2",
+                tags: "Vercel, COAE&T, CCS HAU, Student Hub, Agri-Eng"
             }
         ]
     };
@@ -224,11 +248,23 @@ document.addEventListener("DOMContentLoaded", () => {
             const saved = localStorage.getItem(STORAGE_KEY);
             if (saved) {
                 const parsed = JSON.parse(saved);
+                const loadedProjects = parsed.projects || DEFAULT_PORTFOLIO_DATA.projects;
+                
+                // Auto-merge new default projects if not present
+                DEFAULT_PORTFOLIO_DATA.projects.forEach(dp => {
+                    const exists = loadedProjects.some(lp => lp.id === dp.id || lp.vercelUrl === dp.vercelUrl);
+                    if (!exists) {
+                        loadedProjects.push(dp);
+                    }
+                });
+
                 return Object.assign({}, DEFAULT_PORTFOLIO_DATA, parsed, {
-                    profile: Object.assign({}, DEFAULT_PORTFOLIO_DATA.profile, parsed.profile || {}),
+                    profile: Object.assign({}, DEFAULT_PORTFOLIO_DATA.profile, parsed.profile || {}, {
+                        statProjects: Math.max(14, (parsed.profile && parsed.profile.statProjects) || 14)
+                    }),
                     socials: Object.assign({}, DEFAULT_PORTFOLIO_DATA.socials, parsed.socials || {}),
                     achievements: parsed.achievements || DEFAULT_PORTFOLIO_DATA.achievements,
-                    projects: parsed.projects || DEFAULT_PORTFOLIO_DATA.projects
+                    projects: loadedProjects
                 });
             }
         } catch (e) {
