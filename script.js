@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             statusBadge: "B.Tech Agricultural Engineering @ CCS HAU Hisar (2028)",
             headline: "Innovating Tech, CAD & <br><span class=\"gradient-text\">Prompt Engineering</span>",
             bio: "Hello! I am Raghav Bansal. Pursuing B.Tech in Agricultural Engineering at CCS HAU Hisar. Final Year NCC Cadet with NCC 'B' Certificate ('A' Grade), skilled in Prompt Engineering for diverse problem-solving, AutoCAD & Fusion 360 (50+ 3D Models), and creator of deployed Vercel applications. Dedicated to Farmer Welfare & Viksit Bharat 2047.",
-            statProjects: 13,
+            statProjects: 17,
             statCad: 50,
             statGrad: 2028,
             statVision: 2047
@@ -222,6 +222,54 @@ document.addEventListener("DOMContentLoaded", () => {
                 icon: "fa-solid fa-building-columns",
                 banner: "banner-gradient-2",
                 tags: "Vercel, COAE&T, CCS HAU, Student Hub, Agri-Eng"
+            },
+            {
+                id: "proj-15",
+                title: "AstroVerse Observatories & Lab",
+                desc: "Astrophysics research observatory featuring multi-wavelength 3D planetarium, relativistic black hole raymarcher, solar system orrery, and 45+ numerical space simulations.",
+                category: "ai-science",
+                badgeText: "Astrophysics Lab",
+                vercelUrl: "https://astroverse-observatories.vercel.app/",
+                githubUrl: "https://github.com/raghavbansal0704",
+                icon: "fa-solid fa-satellite-dish",
+                banner: "banner-gradient-1",
+                tags: "Vercel, Astrophysics, 3D Planetarium, Black Hole, Space"
+            },
+            {
+                id: "proj-16",
+                title: "EduSpace — Interactive 3D STEM Lab",
+                desc: "Interactive 3D STEM, astrophysics, and quantum mechanics simulation suite with 45 precision labs, 6 academic domains, 270 synchronous graphs, and learning paths.",
+                category: "ai-science",
+                badgeText: "STEM 3D Lab",
+                vercelUrl: "https://eduspace-platform.vercel.app/",
+                githubUrl: "https://github.com/raghavbansal0704",
+                icon: "fa-solid fa-atom",
+                banner: "banner-gradient-2",
+                tags: "Vercel, 3D STEM, Quantum Lab, Physics, Synchronous Graphs"
+            },
+            {
+                id: "proj-17",
+                title: "ForensicLab 2.0 — Cyber & Quantum Suite",
+                desc: "Standalone cyber-forensic investigation suite, chrono-autopsy mainframe, and quantum particle decay matrix with digital forensic telemetry.",
+                category: "simulations",
+                badgeText: "Cyber Forensics",
+                vercelUrl: "https://4-forensic-lab.vercel.app/",
+                githubUrl: "https://github.com/raghavbansal0704",
+                icon: "fa-solid fa-fingerprint",
+                banner: "banner-gradient-3",
+                tags: "Vercel, Forensics, Cyber Lab, Quantum Matrix, Terminal"
+            },
+            {
+                id: "proj-18",
+                title: "PioneersLab — 18-Pioneer Discovery Hub",
+                desc: "Grand interactive discovery museum honoring 18 scientific pioneers (Einstein, Raman, Ramanujan, Tesla, Curie, Rutherford, Maxwell, Bose) with dedicated experimental interactive labs.",
+                category: "ai-science",
+                badgeText: "18-Pioneer Hub",
+                vercelUrl: "https://pioneers-lab.vercel.app/",
+                githubUrl: "https://github.com/raghavbansal0704",
+                icon: "fa-solid fa-landmark",
+                banner: "banner-gradient-1",
+                tags: "Vercel, Science Pioneers, Interactive Museum, 18 Labs, Discovery"
             }
         ]
     };
@@ -248,7 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 return Object.assign({}, DEFAULT_PORTFOLIO_DATA, parsed, {
                     profile: Object.assign({}, DEFAULT_PORTFOLIO_DATA.profile, parsed.profile || {}, {
-                        statProjects: 13
+                        statProjects: 17
                     }),
                     socials: Object.assign({}, DEFAULT_PORTFOLIO_DATA.socials, parsed.socials || {}),
                     achievements: parsed.achievements || DEFAULT_PORTFOLIO_DATA.achievements,
